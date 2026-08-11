@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    height: 70px;
+    background: #03050b;
+}
+.nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+}
+.nav button{
+    padding: 12px 22px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background: linear-gradient(90deg, #4f00ff, #008cff);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+
+}
+.nav button:hover{
+    transform: translateY(-2px);
+}
+.nav button:active{
+    transform: scale(0.96);
+}
+.nav img{
+    width: 150px;
+    height: auto;
+}

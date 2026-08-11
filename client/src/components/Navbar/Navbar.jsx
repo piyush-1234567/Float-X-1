@@ -1,8 +1,9 @@
+import "./Navbar.css";
 export default function Navbar(){
     return (
-        <nav>
+        <nav className="nav">
             <div>
-                Float-X
+                <img src="./Logo.png" alt="" />
             </div>
             <div>
                 <a href="">Home</a>
