@@ -1,0 +1,32 @@
+.hero{
+    min-height: 70vh;
+    padding: 100px 3%;
+    background: #03050d;
+    color: white;
+    background: url("/HeroBack.png") center/cover no-repeat;
+}
+.hero span{
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 20px;
+    background: #151827;
+    color: #ddd;
+    font-size: 13px;
+}
+.hero h1{
+    font-size: 52px;
+    line-height: 1.1;
+    margin: 25px 0;
+    max-width: 550px;
+    
+
+}
+.hero strong{
+    color: #9b4dff;
+}
+.hero p{
+    color: #aaa;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 550px;
+}
